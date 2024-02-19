@@ -61,6 +61,7 @@ function winner(){
 }
 
 rbtn.addEventListener("click", () => {
+    count = 0
     currentPlayer = 'X'
     h1[0].innerText = 'Tic Tac Toe'
     boxes.forEach(item => {
